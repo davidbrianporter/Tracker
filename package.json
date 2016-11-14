@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "tracker",
   "version": "1.0.0",
   "description": "track time with notes",
@@ -25,3 +26,9 @@
     "electron-prebuilt": "^1.4.5"
   }
 }
+=======
+    "name"    : "Tracker",
+    "version" : "0.0.1",
+    "main"    : "main.js"
+}
+>>>>>>> 074fb9cd313ecca72af729257f6550f9fb37a1fc
