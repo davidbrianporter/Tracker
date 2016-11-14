@@ -1,0 +1,27 @@
+{
+  "name": "tracker",
+  "version": "1.0.0",
+  "description": "track time with notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidbrianporter/Tracker.git"
+  },
+  "keywords": [
+    "pomodoro",
+    "track",
+    "time"
+  ],
+  "author": "David Porter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidbrianporter/Tracker/issues"
+  },
+  "homepage": "https://github.com/davidbrianporter/Tracker#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.5"
+  }
+}
