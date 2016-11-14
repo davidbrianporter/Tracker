@@ -1,34 +1,15 @@
 {
-<<<<<<< HEAD
-  "name": "tracker",
+  "name": "electron-first-steps",
   "version": "1.0.0",
-  "description": "track time with notes",
-  "main": "index.js",
+  "description": "",
+  "main": "main.js",
   "scripts": {
-    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/davidbrianporter/Tracker.git"
-  },
-  "keywords": [
-    "pomodoro",
-    "track",
-    "time"
-  ],
   "author": "David Porter",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/davidbrianporter/Tracker/issues"
-  },
-  "homepage": "https://github.com/davidbrianporter/Tracker#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.4.5"
+    "electron-prebuilt": "^1.4.6"
   }
 }
-=======
-    "name"    : "Tracker",
-    "version" : "0.0.1",
-    "main"    : "main.js"
-}
->>>>>>> 074fb9cd313ecca72af729257f6550f9fb37a1fc
