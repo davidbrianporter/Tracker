@@ -3,8 +3,30 @@
     <head>
         <meta charset="utf-8">
         <title>My first Electron app</title>
+        <script>
+        // considerations use a timer object?  constructor? or functional?
+        // timer constructor
+        function timer(duration) {
+          this.duration = duration;
+          startTime = Date.now();
+          endTime = this.startTime + this.duration;
+        }
+        var t = new timer(15);
+        console.log(t.duration)
+        function countDown(secs,elem) {
+          var element = document.getElementById(elem);
+          element.innerHTML = "+secs+" seconds;
+          secs--;
+          var timer = setTomeout('countDown('+secs+',"'+elem+'")',500);
+        }
+
+        </script>
     </head>
     <body>
-        <h1>Hello World!</h1>
+      <h1>output</h1>
+
+
+      <div id="status"></div>
+      <script>  countDown(10,"status");</script>
     </body>
 </html>
