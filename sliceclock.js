@@ -11,13 +11,13 @@ Would love to see someone adding a UI to this one.
 
 
 
-(function drawCanvas(){
+function drawCanvas(t){
   var canvas=document.getElementById('mycanvas');
   var ctx=canvas.getContext('2d');
   var cWidth=canvas.width;
   var cHeight=canvas.height;
   
-  var countTo=20
+  var countTo=t
   
   var min=Math.floor(countTo/60);
   var sec=countTo-(min*60);
@@ -69,7 +69,7 @@ Would love to see someone adding a UI to this one.
     grad=ctx.createRadialGradient(cWidth/2,cHeight/2,80,cWidth/2,cHeight/2,115);
     grad.addColorStop(0.0,'rgba(0,0,0,.4)');
     grad.addColorStop(0.5,'rgba(0,0,0,0)');
-    grad.addColorStop(1.0,'rgba(0,0,0,0.4)');
+    grad.addColorStop(1.0,'rgba(100,1,90,0.4)');
     
     ctx.beginPath();
     ctx.strokeStyle=grad;
@@ -158,6 +158,6 @@ Would love to see someone adding a UI to this one.
       }
   }
   
-  setInterval(drawScreen,1000);
+  setInterval(drawScreen,100);
   
-})()
+}
